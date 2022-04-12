@@ -29,3 +29,6 @@ class DS():
 
         self.X = X
         self.t = t
+
+    def get_data(self):
+        return (self.X, self.t)
